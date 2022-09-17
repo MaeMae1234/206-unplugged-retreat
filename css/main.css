@@ -401,6 +401,22 @@ input[type=text]{
   margin: 0;
 }
 
+.map figure{
+  position: relative;
+  padding-bottom: 125%; /*maps aspect ratio - relation between height and width*/
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* ==========================================================================
    FAQ Page
    ========================================================================== */
