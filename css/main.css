@@ -656,6 +656,10 @@ faq h2 {
       width: 45%;
     }
 
+    .map figure {
+      padding-bottom: 45.5%;
+    }
+
     .contact-section .content-wrapper h2 {
       width: 80%;
 
@@ -722,6 +726,10 @@ faq h2 {
   }
 
   /*********ABOUT**********/
+
+  .map figure {
+    padding-bottom: 37.5%;
+  }
   .mission h2,
   .contact-section .content-wrapper h2{
     width: 95%;
