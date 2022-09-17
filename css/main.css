@@ -149,6 +149,14 @@ a {
     margin: 50px 0;
   }
 
+  img {
+    width: 100%;
+  }
+
+  figure {
+    margin: 0;
+  }
+
 
 /* -------------------- Base Header - Footer Styles -------------------- */
 
@@ -171,6 +179,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -245,6 +261,10 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url(../img/unplugged-retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -523,6 +543,10 @@ faq h2 {
       width: 100%;
     }
 
+    header figure {
+      width: 30%;
+    }
+
     header nav {
       width: 20%;
     }
@@ -572,12 +596,12 @@ faq h2 {
     .reviews article {
       display:flex;
       justify-content: space-between;
-
-
     }
+    
+    
 
-
-    .reviews article div {
+    .reviews article div,
+    .reviews article figure {
       width: 49%;
     }
 
