@@ -96,11 +96,65 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* General Styles */
 
-.content-wrapper {
-  width: 90%;
-  margin: 50px 0;
+html {
+  font-size: 16px; /*1em = 16px*/
 }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+ul,ol {
+  list-style-type: none;
+}
+
+h1, h2, h3, p {
+  color: #e2e3ed;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25em;
+  line-height: 1.6;
+  font-weight: 700;
+  }
+
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.875em;
+    font-weight: 700;
+  }
+  
+  h3, h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125em;
+    font-weight: 700;
+  }
+
+  h4 {
+    color: #fff;
+  }
+
+  p {
+    font-size: 0.875em;
+    line-height: 18px;
+  }
+
+  img {
+    width: 100%;;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  .address {
+    font-style: italic;
+  }
+
 
 /* -------------------- Base Header - Footer Styles -------------------- */
 
@@ -242,6 +296,35 @@ aside {
 
 .reviews h3 {
   margin: 20px 0;
+}
+
+/*Form styles*/
+
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text]{
+box-sizing: border-box;
+width: 100%;
+color: #2a423a;
+font-style: italic;
+padding: 1em;
+}
+
+input[type=button]{
+  width:100%;
+padding: 20px 0;
+margin-top: 20px;
+background-color: #2a423a;
+font-fam: 'Poppins', Helvetica, Arial,
+sans-serif;
+font-weight: 500;
+font-size: 1.125em;
+color: #e2e3ed;
+border:none;
+text-align: center;
+text-transform: uppercase;
 }
 
 /* ==========================================================================
